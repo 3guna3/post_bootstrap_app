@@ -17,8 +17,8 @@
 @import 'bootstrap/scss/bootstrap';
 
 $fa-font-path: '@fontawesome/fontawesome-free/webfonts';
-@import '@fontawesome/fontawesome-free/scss/fontawesome';
-@import '@fontawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/regular';
 
 .field_with_errors {
   display: contents;
@@ -32,4 +32,8 @@ $fa-font-path: '@fontawesome/fontawesome-free/webfonts';
   @extend .container-fluid;
   max-width: var(--breakpoint-lg);
   padding: 30px 15px;
+}
+
+body {
+  padding-top: 56px;
 }
