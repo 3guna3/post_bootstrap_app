@@ -16,7 +16,7 @@
 
 @import 'bootstrap/scss/bootstrap';
 
-$fa-font-path: '@fontawesome/fontawesome-free/webfonts';
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome';
 @import '@fortawesome/fontawesome-free/scss/regular';
 
@@ -36,4 +36,14 @@ $fa-font-path: '@fontawesome/fontawesome-free/webfonts';
 
 body {
   padding-top: 56px;
+}
+
+//テーブル
+th,
+td {
+  vertical-align: middle !important;
+}
+
+.break-word {
+  word-break: break-word;
 }
