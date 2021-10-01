@@ -19,6 +19,9 @@
 $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome';
 @import '@fortawesome/fontawesome-free/scss/regular';
+* {
+  margin: 0;
+}
 
 .field_with_errors {
   display: contents;
@@ -29,14 +32,17 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
   }
 }
 
-.base-container {
-  @extend .container-fluid;
-  max-width: var(--breakpoint-lg);
-  padding: 30px 15px;
-}
-
 body {
   padding-top: 56px;
+  background-color: aqua;
+}
+
+.container {
+  padding: 5rem;
+}
+
+.fw {
+  background-image: url(/app/assets/images/ocean-360.jpg);
 }
 
 //テーブル
